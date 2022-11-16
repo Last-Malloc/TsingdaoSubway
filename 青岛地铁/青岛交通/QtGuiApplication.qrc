@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="QtGuiApplication">
+    <file>Resources/beijng.jpg</file>
+    <file>Resources/555.ico</file>
+    <file>Resources/tip_background.jpg</file>
+    <file>Resources/tubiao.ico</file>
+  </qresource>
+  <qresource prefix="小图标">
+    <file>Resources/帮助.ico</file>
+    <file>Resources/关闭.ico</file>
+    <file>Resources/最小化.ico</file>
+  </qresource>
+</RCC>

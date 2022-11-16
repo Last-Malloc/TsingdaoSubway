@@ -1,0 +1,12 @@
+﻿  Moc'ing src\QtGuiApplication.h...
+  Uic'ing src\MyTip.ui...
+  AfCd_Win32.cpp
+  main.cpp
+  Mypen.cpp
+  MyTip.cpp
+  QtGuiApplication.cpp
+  moc_QtGuiApplication.cpp
+  moc_MyTip.cpp
+  moc_Mypen.cpp
+  qrc_QtGuiApplication.cpp
+  青岛交通.vcxproj -> C:\Users\hp\Desktop\Tsingdao(final)\x64\Release\青岛交通.exe

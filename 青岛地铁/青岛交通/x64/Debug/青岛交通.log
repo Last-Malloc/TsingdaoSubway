@@ -1,0 +1,8 @@
+﻿  Uic'ing src\MyTip.ui...
+  Uic'ing src\QtGuiApplication.ui...
+  moc_MyTip.cpp
+  moc_QtGuiApplication.cpp
+  MyTip.cpp
+  QtGuiApplication.cpp
+  main.cpp
+  青岛交通.vcxproj -> C:\Users\hp\Desktop\test\青岛交通\.\bin\青岛交通.exe

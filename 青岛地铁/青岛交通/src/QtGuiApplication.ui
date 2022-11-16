@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtGuiApplicationClass</class>
+ <widget class="QMainWindow" name="QtGuiApplicationClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1140</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>青岛地铁交通咨询系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../QtGuiApplication.qrc">
+    <normaloff>:/QtGuiApplication/Resources/tubiao.ico</normaloff>:/QtGuiApplication/Resources/tubiao.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1140</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/QtGuiApplication/Resources/beijng.jpg);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1140</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <widget class="QToolButton" name="btnOK">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>130</y>
+       <width>76</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../QtGuiApplication.qrc">
+       <normaloff>:/QtGuiApplication/Resources/555.ico</normaloff>:/QtGuiApplication/Resources/555.ico</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>65</width>
+       <height>59</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonIconOnly</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="LineStart">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>351</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;从法&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 100);
+font: 18pt &quot;Adobe 黑体 Std R&quot;;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>           请输入起点站</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="LineEnd">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>130</y>
+       <width>351</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 100);
+font: 18pt &quot;Adobe 黑体 Std R&quot;;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>           请输入终点站</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="min">
+     <property name="geometry">
+      <rect>
+       <x>1050</x>
+       <y>0</y>
+       <width>47</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../QtGuiApplication.qrc">
+       <normaloff>:/小图标/Resources/最小化.ico</normaloff>:/小图标/Resources/最小化.ico</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="close">
+     <property name="geometry">
+      <rect>
+       <x>1100</x>
+       <y>0</y>
+       <width>47</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>ClosedHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../QtGuiApplication.qrc">
+       <normaloff>:/小图标/Resources/关闭.ico</normaloff>:/小图标/Resources/关闭.ico</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="help">
+     <property name="geometry">
+      <rect>
+       <x>1000</x>
+       <y>0</y>
+       <width>47</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../QtGuiApplication.qrc">
+       <normaloff>:/小图标/Resources/帮助.ico</normaloff>:/小图标/Resources/帮助.ico</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="Mypen" name="mypen">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1140</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>widget_2</zorder>
+   <zorder>mypen</zorder>
+   <zorder>widget</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Mypen</class>
+   <extends>QFrame</extends>
+   <header location="global">mypen.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../QtGuiApplication.qrc"/>
+ </resources>
+ <connections/>
+</ui>

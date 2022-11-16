@@ -1,0 +1,2 @@
+Uic'ing src\MyTip.ui...;D:\QT\5.11.2\msvc2017_64\bin\uic.exe;"C:\Users\hp\Desktop\test\青岛交通\src\MyTip.ui" -o ".\GeneratedFiles\ui_MyTip.h"
+Uic'ing src\QtGuiApplication.ui...;D:\QT\5.11.2\msvc2017_64\bin\uic.exe;"C:\Users\hp\Desktop\test\青岛交通\src\QtGuiApplication.ui" -o ".\GeneratedFiles\ui_QtGuiApplication.h"
